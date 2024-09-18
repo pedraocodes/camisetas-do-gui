@@ -11,6 +11,18 @@ body {
     background-color: black;
 }
 
+header {
+    max-width: 500px;
+    padding: 20px 0px 20px 0px;
+    background-color: green;
+}
+
+main {
+
+    max-width: 500px;
+    background-color: rgb(31, 31, 31);
+}
+
 h1 {
     color: white;
     font-size: 31px;
