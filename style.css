@@ -42,3 +42,14 @@ h1 {
 .shirt img {
     width: 100%;
 }
+
+.whats {
+    max-width: 30px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+
+.whats > img {
+    width: 100%;
+}
