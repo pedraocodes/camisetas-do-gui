@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+* {
+    margin: auto;
+    padding: 0;
+    text-align: center;
+}
+
+.shirts-box {
+    padding: 10px;
+}
+
+.shirt {
+    padding: 10px;
+    max-width: 350px;
+    text-align: center;
+}
+
+.shirt img {
+    width: 100%;
+}
