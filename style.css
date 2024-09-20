@@ -38,7 +38,7 @@ header {
 }
 
 header > h1 {
-    padding-bottom: 15px;
+    padding-bottom: 13px;
     font-family: var(--fonte-titulo);
     letter-spacing: 7px;
     color: var(--cor4);
@@ -48,7 +48,7 @@ header > h1 {
 
 h2 {
     font-family: var(--fonte-destaque);
-    padding-top: 15px;
+    padding-top: 13px;
     letter-spacing: 2px;
     line-height: 1.1em;
     color: black;
