@@ -33,12 +33,12 @@ body {
 
 header {
     max-width: 500px;
-    padding: 20px 0px 20px 0px;
+    padding: 50px 0px 50px 0px;
     background-image: linear-gradient(to bottom, #13505b, #0C7489, #119DA4 );
 }
 
-h1 {
-    padding-bottom: 10px;
+header > h1 {
+    padding-bottom: 15px;
     font-family: var(--fonte-titulo);
     letter-spacing: 7px;
     word-spacing: 7px;
@@ -49,7 +49,7 @@ h1 {
 
 h2 {
     font-family: var(--fonte-destaque);
-    padding-top: 5px;
+    padding-top: 15px;
     letter-spacing: 2px;
     line-height: 1.1em;
     color: black;
@@ -103,6 +103,11 @@ main {
 
 .shirt img {
     width: 100%;
+}
+
+footer > h1 {
+    font-family: var(--fonte-titulo);
+    color: var(--cor4);
 }
 
 .whats {
