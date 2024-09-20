@@ -1,10 +1,30 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@font-face {
+    font-family: 'DonGraffiti';
+    src: url('./fontes/DonGraffiti.otf') format('opentype');
+}
+
+:root {
+    --cor0: #119DA4;
+    --cor1: #0C7489;
+    --cor2: #13505b;
+    --cor3: #040404;
+    --cor4: #D7D9CE;
+
+    --fonte-titulo: 'DonGraffiti', cursive;
+    --fonte-destaque: 'Anton', cursive;
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+
+}
+
 * {
     margin: auto;
     padding: 0;
     text-align: center;
-    font-family: sans-serif;
+    font-family: var(--fonte-padrao);
 }
 
 body {
@@ -13,19 +33,58 @@ body {
 
 header {
     max-width: 500px;
-    padding: 20px 0px 20px 0px;
-    background-color: green;
-}
-
-main {
-
-    max-width: 500px;
-    background-color: rgb(31, 31, 31);
+    padding: 10px 0px 10px 0px;
+    background-image: linear-gradient(to bottom, #13505b, #0C7489, #119DA4 );
 }
 
 h1 {
-    color: white;
-    font-size: 32px;
+    padding-bottom: 10px;
+    font-family: var(--fonte-titulo);
+    letter-spacing: 7px;
+    word-spacing: 7px;
+    color: var(--cor4);
+    text-shadow: 4px 4px 5px black;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: var(--fonte-destaque);
+    padding-top: 5px;
+    letter-spacing: 2px;
+    line-height: 1.1em;
+    color: black;
+    text-shadow: 1px 1px 1px var(--cor4);
+    font-size: 17px;
+}
+
+nav {
+    padding: 5px 0px 5px 0px;
+    background-color: var(--cor2);
+    max-width: 500px;
+}
+
+nav > a {
+    color: var(--cor4);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+
+}
+
+.futebol {
+    padding-right: 60px;
+}
+
+.basquete {
+    padding-left: 60px;
+}
+
+main {
+    max-width: 500px;
+    background-color: black;
 }
 
 .shirts-box {
