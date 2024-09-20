@@ -33,27 +33,27 @@ body {
 
 header {
     max-width: 500px;
-    padding: 35px 0px 35px 0px;
+    padding: 33px 0px 33px 0px;
     background-image: linear-gradient(to bottom, #13505b, #0C7489, #119DA4 );
 }
 
 header > h1 {
-    padding-bottom: 13px;
+    padding-bottom: 10px;
     font-family: var(--fonte-titulo);
-    letter-spacing: 7px;
+    letter-spacing: 5px;
     color: var(--cor4);
     text-shadow: 4px 4px 5px black;
-    font-size: 70px;
+    font-size: 60px;
 }
 
 h2 {
     font-family: var(--fonte-destaque);
-    padding-top: 13px;
+    padding-top: 10px;
     letter-spacing: 2px;
     line-height: 1.1em;
     color: black;
     text-shadow: 2px 2px 1px var(--cor4);
-    font-size: 25px;
+    font-size: 20px;
 }
 
 nav {
