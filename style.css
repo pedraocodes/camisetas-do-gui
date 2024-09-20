@@ -41,7 +41,6 @@ header > h1 {
     padding-bottom: 15px;
     font-family: var(--fonte-titulo);
     letter-spacing: 7px;
-    word-spacing: 7px;
     color: var(--cor4);
     text-shadow: 4px 4px 5px black;
     font-size: 70px;
