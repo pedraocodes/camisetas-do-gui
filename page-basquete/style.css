@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'DonGraffiti';
-    src: url('./fontes/DonGraffiti.otf') format('opentype');
+    src: url('../fontes/DonGraffiti.otf') format('opentype');
 }
 
 :root {
@@ -87,7 +87,7 @@ nav > a:hover {
 main {
     max-width: 500px;
     background-color: var(--cor3);
-    background-image: url(./imagens/fire5-mod.jpg);
+    background-image: url(../imagens/fire5-mod.jpg);
     background-size: 100%;
     background-repeat: repeat-y;
 }
