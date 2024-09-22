@@ -49,7 +49,7 @@ header > h1 {
 h2 {
     font-family: var(--fonte-destaque);
     padding-top: 10px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     line-height: 1.1em;
     color: black;
     text-shadow: 1px 1px 0px var(--cor4);
@@ -65,7 +65,7 @@ nav {
 nav > a {
     color: var(--cor4);
     font-family: var(--fonte-destaque);
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-decoration: none;
     
 }
@@ -87,6 +87,9 @@ nav > a:hover {
 main {
     max-width: 500px;
     background-color: var(--cor3);
+    background-image: url(./imagens/fire5.jpg);
+    background-size: 500px;
+    background-repeat: repeat-y;
 }
 
 .shirts-box {
@@ -98,6 +101,13 @@ main {
     padding: 10px;
     max-width: 350px;
     text-align: center;
+}
+
+.shirt p {
+    color: var(--cor4);
+    font-family: var(--fonte-destaque);
+    font-size: large;
+    letter-spacing: 1px;
 }
 
 .shirt img {
