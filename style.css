@@ -88,7 +88,7 @@ main {
     max-width: 500px;
     background-color: var(--cor3);
     background-image: url(./imagens/fire5.jpg);
-    background-size: 500px;
+    background-size: 100%;
     background-repeat: repeat-y;
 }
 
