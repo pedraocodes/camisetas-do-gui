@@ -22,7 +22,7 @@
 
 * {
     margin: auto;
-    padding: 0;
+    padding: 0px;
     text-align: center;
     font-family: var(--fonte-padrao);
 }
@@ -87,31 +87,29 @@ nav > a:hover {
 main {
     max-width: 500px;
     background-color: var(--cor3);
-    background-image: url(./imagens/fire5.jpg);
+    background-image: url(./imagens/toejam.gif);
     background-size: 100%;
     background-repeat: repeat-y;
 }
 
 .shirts-box {
-    padding: 10px;
     justify-content: center;
 }
 
 .shirt {
-    padding: 10px;
     max-width: 350px;
-    text-align: center;
 }
 
 .shirt p {
+    background-color: var(--cor2);
     color: var(--cor4);
     font-family: var(--fonte-destaque);
     font-size: large;
-    letter-spacing: 1px;
 }
 
 .shirt img {
     width: 100%;
+    display: block;
 }
 
 footer > h1 {
