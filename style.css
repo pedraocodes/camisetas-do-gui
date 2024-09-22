@@ -115,9 +115,34 @@ main {
     display: block;
 }
 
+footer {
+    max-width: 500px;
+    color: var(--cor4);
+}
+
+footer > a {
+    text-decoration: none;
+}
+
 footer > h1 {
     font-family: var(--fonte-titulo);
     color: var(--cor4);
+}
+
+div.link-img {
+    display: flex;
+    padding: 5px;
+    position: relative;
+}
+
+div.link-img > p {
+    position: absolute;
+    top: 10px;
+    left: 45px;
+}
+
+div.link-img > p > a:hover {
+    font-weight: bold;
 }
 
 .whats {
