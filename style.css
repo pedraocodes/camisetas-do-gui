@@ -53,7 +53,6 @@ header {
 }
 
 header > h1 {
-    padding-bottom: 10px;
     font-family: var(--fonte-titulo);
     letter-spacing: 5px;
     color: var(--cor4);
@@ -63,7 +62,6 @@ header > h1 {
 
 h2 {
     font-family: var(--fonte-destaque);
-    padding-top: 10px;
     letter-spacing: 1px;
     line-height: 1.1em;
     color: black;
@@ -72,6 +70,8 @@ h2 {
 }
 
 nav {
+    position: sticky;
+    top: 0;
     padding: 5px 0px 5px 0px;
     background-color: var(--cor2);
     max-width: 500px;
@@ -80,13 +80,12 @@ nav {
 nav > a {
     color: var(--cor4);
     font-family: var(--fonte-destaque);
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
     text-decoration: none;
     
 }
 
 nav > a:hover {
-    text-decoration: underline;
     font-weight: bold;
 
 }
@@ -107,28 +106,47 @@ main {
     background-repeat: repeat-y;
 }
 
+.price-box {
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(to left, transparent, #13505b, #0C7489, #119DA4, #0C7489, #13505b, transparent);
+    max-width: 350px;
+}
+
+.price-box > p {
+    margin-top: 10px;
+    color: var(--cor4);
+    width:fit-content;
+    font-family: var(--fonte-destaque);
+    letter-spacing: 0.5px;
+    background-image: linear-gradient(to left, transparent, black, black, transparent);
+}
+
 .shirts-box {
     justify-content: center;
-    padding: 30px 0px 0px 0px;
 }
 
 .shirt {
-    max-width: 350px;
-    padding: 0px 0px 30px 0px;
+    box-sizing: border-box;
+    border: 4px solid var(--cor1);
+    margin-bottom: 25px;
+    max-width: 330px;
 }
 
 .shirt li {
     list-style-position: inside;
-    background-color: var(--cor2);
+    width: 100%;
+    background-color: black;
     color: var(--cor4);
     font-family: var(--fonte-destaque);
     font-size: large;
-    letter-spacing: 1px;
+    letter-spacing: 2.5px;
 }
 
 .shirt img {
-    width: 100%;
     display: block;
+    width: 100%;
 }
 
 footer {
