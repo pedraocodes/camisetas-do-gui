@@ -71,7 +71,7 @@ h2 {
 
 nav {
     position: sticky;
-    top: 0;
+    top: 0px;
     padding: 5px 0px 5px 0px;
     background-color: var(--cor2);
     max-width: 500px;
