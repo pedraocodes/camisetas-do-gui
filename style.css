@@ -88,11 +88,13 @@ nav ul li {
     box-sizing: border-box;
 }
 
-li a {
+.futebol,
+.basquete {
     color: var(--cor4);
     font-family: var(--fonte-destaque);
     letter-spacing: 1.5px;
     text-decoration: none;
+    font-size: 22px;
 }
 
 li>a:hover {
@@ -217,6 +219,7 @@ footer>h1 {
         background-image: url(./imagens/fire5-mod-tablet.png);
         background-size: 100%;
     }
+
     .shirt {
         margin: 10px;
     }
@@ -228,4 +231,3 @@ footer>h1 {
         background-size: 100%;
     }
 }
-
