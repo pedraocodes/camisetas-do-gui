@@ -230,4 +230,17 @@ footer>h1 {
         background-image: url(./imagens/fire5-mod.jpg);
         background-size: 100%;
     }
+
+    .futebol,
+    .basquete {
+        font-size: 15px;
+    }
+
+    ol {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0px 50px;
+
+
 }
