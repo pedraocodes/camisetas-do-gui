@@ -71,7 +71,7 @@ h2 {
 
 nav {
     padding: 5px 0px;
-    background-color: var(--cor2);
+    background-color: var(--cor0);
     width: 100%;
     position: sticky;
     top: 0px;
@@ -81,24 +81,28 @@ nav ul {
     justify-content: space-around;
     display: flex;
     text-align: center;
+    justify-content: center;
     list-style: none;
-}
-
-nav ul li {
-    box-sizing: border-box;
 }
 
 .futebol,
 .basquete {
     color: var(--cor4);
+    background-color: var(--cor2);
     font-family: var(--fonte-destaque);
+    border: 2px solid var(--cor2);
+    border-radius: 5px;
+    padding: 0px 20px;
+    margin: 0px 5px;
+    padding-right: -5px;
     letter-spacing: 1.5px;
     text-decoration: none;
     font-size: 22px;
 }
 
 li>a:hover {
-    font-weight: bold;
+    border: 2px solid var(--cor4);
+    background-color: var(--cor1);
 }
 
 main {
@@ -172,14 +176,23 @@ footer>a {
 footer>h1 {
     font-family: var(--fonte-titulo);
     color: var(--cor4);
+    text-align: left;
     letter-spacing: 4px;
-    text-shadow: 4px 4px 5px black;
-    padding: 20px 0px 10px 0px;
+    text-shadow: 3px 3px 3px black;
+    padding: 20px 0px 10px 30px;
+}
+
+footer>p {
+    font-family: var(--fonte-destaque);
+    font-size: 20px;
+    text-shadow: 2px 2px 2px black;
+    text-align: left;
+    padding: 0px 30px;
 }
 
 .link-img {
     display: flex;
-    padding: 10px 0px 30px 60px;
+    padding: 10px 0px 30px 30px;
 }
 
 .link-img>a {
@@ -188,18 +201,33 @@ footer>h1 {
 
 .link-img>p {
     margin: 0px;
+    color: black;
     padding-left: 4px;
     font-family: var(--fonte-destaque);
     font-size: 20px;
 }
 
 .link-img>p>a {
+    color: black;
     text-decoration: none;
     font-family: var(--fonte-destaque)
 }
 
 .link-img>p>a:hover {
     font-weight: bold;
+}
+
+#divulgacao {
+    background-color: black;
+    color: white;
+    font-family: var(--fonte-padrao);
+    font-size: 15px;
+    text-align: center;
+}
+
+#divulgacao>a {
+    text-decoration: none;
+    color: white;
 }
 
 .whats {
@@ -213,6 +241,20 @@ footer>h1 {
     width: 100%;
 }
 
+@media (min-width: 1025px) {
+
+    header>h1 {
+        font-size: 90px;
+    }
+
+    .price-box>h2 {
+        font-size: 30px;
+    }
+
+    .price-box>p {
+        font-size: 20px;
+    }
+}
 
 @media (max-width: 1024px) {
     main {
@@ -242,6 +284,4 @@ footer>h1 {
         justify-content: center;
         margin: 0px 50px;
     }
-
-
 }
