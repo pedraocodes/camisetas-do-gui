@@ -48,7 +48,7 @@ body {
 }
 
 header {
-    padding: 33px 0px 33px 0px;
+    padding: 35px 0px;
     background-image: linear-gradient(to bottom, #13505b, #0C7489, #119DA4);
 }
 
@@ -71,7 +71,9 @@ h2 {
 
 nav {
     background-color: var(--cor0);
-    padding: 5px;
+    padding: 7px;
+    position: sticky;
+    top: 0px;
     
 }
 
@@ -289,10 +291,14 @@ footer>p {
         background-size: 100%;
     }
 
+    nav a {
+        font-size: 17px;
+    }
+
     ol {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin: 0px 50px;
+        margin: 0px 35px;
     }
 }
