@@ -226,7 +226,8 @@ footer>p {
 }
 
 .link-img>p>a {
-    color: black;
+    color: var(--cor4);
+    text-shadow: 2px 2px 2px black;
     text-decoration: none;
     font-family: var(--fonte-destaque);
 }
